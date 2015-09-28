@@ -1,0 +1,10 @@
+<mvc:View
+    controllerName="ui5seed.view.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m">
+    <Page title="{i18n>mainTitle}">
+        <content>
+        </content>
+    </Page>
+</mvc:View>
