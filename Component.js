@@ -16,10 +16,10 @@ sap.ui.define([
                 resourceBundle : "i18n/i18n.properties",
                 serviceConfig : {
                     name : "ui5seed",
-                    serviceUrl : "/sap/opu/odata/path/to/srv/"
+                    serviceUrl : "/sap/opu/odata/path/to/srv/" // last slash important, must be there
                 },
                 appConfig: {
-                    rootPath: "/sap/bc/ui5_ui5/sap/path/to/app/"
+                    rootPath: "/sap/bc/ui5_ui5/sap/path/to/app" // don't need last slash, because this root path is used to compose a more complete path.
                 }
             },
             routing: {
